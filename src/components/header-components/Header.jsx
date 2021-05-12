@@ -1,29 +1,6 @@
 import { Component } from "react";
 import AdvanceSearch from "./AdvanceSearch";
 
-// let showingState = "hide";
-
-// function changeShowingState() {
-//     if (showingState === "hide") {
-//         showingState = "show"
-//     } else {
-//         showingState = "hide"
-//     }
-
-//     console.log(showingState)
-//     return showingState
-// }
-
-// function expandAdvanceSearch() {
-//     return (
-//         <AdvanceSearch
-//             showingStateProps={changeShowingState}
-//         />
-//     );
-// }
-
-
-
 class Header extends Component {
     constructor(props){
         super(props);
@@ -52,7 +29,7 @@ class Header extends Component {
                             <input className="form-control mr-sm-2" type="text" placeholder="Search" />
                             <button className="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
 
-                            <button className="btn btn-outline-light my-2 my-sm-0 m-2" type="submit"
+                            <button className="btn btn-outline-light my-2 my-sm-0 m-2" type="button"
                                 onClick={() => {
                                     this.setState({
                                         isShowing: !this.state.isShowing

@@ -1,14 +1,11 @@
 import { Component } from "react";
-import "./Footer.css";
 
 class Footer extends Component {
-    render () {
-        return(
+    render() {
+        return (
             <div className="text-center p-3 bg-dark text-light footer">
-                Copyright@2021 by Cris
+                © 2021 Copyright by Cris 
             </div>
         );
     }
 }
-
-export default Footer;

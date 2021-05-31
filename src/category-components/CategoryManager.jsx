@@ -5,6 +5,7 @@ class CategoryManager extends Component{
         super(props);
     }
 
+    
 
 }
 

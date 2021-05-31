@@ -1,0 +1,13 @@
+div .row-item {
+    margin: 0%;
+    left: 0%;
+    margin-bottom: 100px;
+}
+
+div .card-item {
+    max-height: 400px;
+    min-height: 400px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

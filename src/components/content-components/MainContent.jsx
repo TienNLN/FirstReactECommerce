@@ -97,7 +97,7 @@ class MainContent extends Component {
         let showAllIPhone =
             listIPhoneItem.map(item => {
                 return(
-                    <div className="col-4 col-items">
+                    <div className="col-xs-3 col-md-3 col-lg-3 col-xl-3 col-items">
                         <div className="card">
                             <img className="card-img-top" src={item.img} alt=""/>
                             <div className="card-body test">
@@ -123,7 +123,7 @@ class MainContent extends Component {
         let showAllSamsung =
             listSamsungItem.map(item => {
                 return(
-                    <div className="col-4 col-items">
+                    <div className="col-xs-3 col-md-3 col-lg-3 col-xl-3 col-items">
                         <div className="card">
                             <img className="card-img-top" src={item.img} alt=""/>
                             <div className="card-body test">
